@@ -19,4 +19,6 @@ Approval⚠️**
 
 In your terminal, move into your desktop and run the following command. This will generate a folder, in your Desktop, named `github.com` with the Golang protocol buffers inside.
 
-`protowrap --go_out=. -I protocol-buffers protocol-buffers/matrix_io/**/*.proto protocol-buffers/matrix_io/**/**/*.proto`
+```
+protowrap --go_out=. -I protocol-buffers protocol-buffers/matrix_io/**/*.proto protocol-buffers/matrix_io/**/**/*.proto
+```
