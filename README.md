@@ -17,8 +17,8 @@ Golang Protocol Buffers for the MATRIX CORE Protocol
 <a href="https://github.com/matrix-io/protocol-buffers/pull/92">Pull Request #92</a> 
 Approval⚠️**
 
-In your terminal, move into your desktop and run the following command. This will generate a folder, in your Desktop, named `github.com` with the Golang protocol buffers inside.
-
+In your terminal, move into your desktop and run the following command:
 ```
 protowrap --go_out=. -I protocol-buffers protocol-buffers/matrix_io/**/*.proto protocol-buffers/matrix_io/**/**/*.proto
 ```
+This will generate a folder named `github.com` with the Golang protocol buffers inside.
