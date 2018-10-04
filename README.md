@@ -3,7 +3,7 @@
 
 Golang Protocol Buffers for the MATRIX CORE Protocol
 
-# Compiling Protocol Buffers
+# Compiling The Protocol Buffers
 
 ## Prerequsits
 - Download & build the latest version of protobuf-all: https://github.com/protocolbuffers/protobuf/releases
