@@ -3,7 +3,13 @@
 
 Golang Protocol Buffers for the MATRIX CORE Protocol
 
+# Installation
+```
+go get github.com/matrix-io/matrix-protos-go
+```
+
 # Compiling The Protocol Buffers
+Follow the instructions below, if you want to compile the MATRIX Protocol Buffers on your own. 
 
 ## Prerequsits
 - Download & build the latest version of protobuf-all: https://github.com/protocolbuffers/protobuf/releases
