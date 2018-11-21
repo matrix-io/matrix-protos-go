@@ -19,10 +19,6 @@ The instructions below will show you how to compile `matrix-protos-go`.
 - Download & unzip the MATRIX-io protocol buffers to your desktop: https://github.com/matrix-io/protocol-buffers
 
 ## Compiling Command
-**⚠️Awaiting matrix-io/protocol-buffers 
-<a href="https://github.com/matrix-io/protocol-buffers/pull/92">Pull Request #92</a> 
-Approval⚠️**
-
 In your terminal, move into your desktop and run the following command:
 ```
 protowrap --go_out=. -I protocol-buffers protocol-buffers/matrix_io/**/*.proto protocol-buffers/matrix_io/**/**/*.proto
