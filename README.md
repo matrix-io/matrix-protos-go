@@ -22,7 +22,7 @@ go get github.com/matrix-io/matrix-protos-go
 ```
 
 # Docs & Community
-[MATRIX documentation](https://matrix-io.github.io/matrix-documentation/): Read and learn about the MATRIX Ecosystem.
+[MATRIX Documentation](https://matrix-io.github.io/matrix-documentation/): Read and learn about the MATRIX Ecosystem.
 
 [MATRIX Community](https://community.matrix.one/): Post any questions or projects in our community form.
 
