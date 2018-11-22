@@ -83,7 +83,7 @@ func main() {
 	pusher.Send(string((encodedConfiguration)), 1)
 }
 ```
-<details>
+</details>
 
 # Compiling The Protocol Buffers (Optional)
 Below are the instructions on how to generate our [MATRIX protocol buffers](https://github.com/matrix-io/protocol-buffers), if you want to build for a version not currently supported.
