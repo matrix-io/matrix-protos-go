@@ -78,7 +78,7 @@ func main() {
 		DelayBetweenUpdates:  0.5,
 	}
 
-	//Encode protocol buffer
+	// Encode protocol buffer
 	var encodedConfiguration, _ = proto.Marshal(&configuration)
 	// Send protocol buffer
 	pusher.Send(string((encodedConfiguration)), 1)
