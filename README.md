@@ -29,7 +29,7 @@ go get github.com/matrix-io/matrix-protos-go
 # Examples
 
 <details close>
-<summary> LED Example </summary>
+<summary>LED Example</summary>
 
 ### Initial Imports & Variables
 ```go
