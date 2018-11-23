@@ -55,7 +55,7 @@ For simplicity, the Everloop example will hard code the number of LEDs.
 
 ```go
 func main() {
-  // Connect ZMQ socket to MATRIX CORE
+	// Connect ZMQ socket to MATRIX CORE
 	pusher, _ := zmq.NewSocket(zmq.PUSH)    // Create a pusher socket
 	pusher.Connect("tcp://127.0.0.1:20021") // Connect pusher to data update port
 
@@ -73,15 +73,17 @@ func main() {
 
 	// Create driver configuration for everloop protocol
 	configuration := core.DriverConfig{
-		Image:                &everloop,
-		TimeoutAfterLastPing: 6.0,
-		DelayBetweenUpdates:  0.5,
+		Image: &everloop,
 	}
 
 	// Encode protocol buffer
 	var encodedConfiguration, _ = proto.Marshal(&configuration)
 	// Send protocol buffer
 	pusher.Send(string((encodedConfiguration)), 1)
+
+	// Give pusher time to connect
+	fmt.println("Sending Everloop Configuration!")
+	time.Sleep(5 * time.Second)
 }
 ```
 </details>
