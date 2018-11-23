@@ -82,7 +82,7 @@ func main() {
 	pusher.Send(string((encodedConfiguration)), 1)
 
 	// Give pusher time to connect
-	fmt.println("Sending Everloop Configuration!")
+	fmt.Println("Sending Everloop Configuration!")
 	time.Sleep(5 * time.Second)
 }
 ```
