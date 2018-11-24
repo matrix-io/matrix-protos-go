@@ -80,9 +80,7 @@ func main() {
 	var encodedConfiguration, _ = proto.Marshal(&configuration)
 	// Send protocol buffer
 	pusher.Send(string((encodedConfiguration)), 1)
-
 	// Give pusher time to connect
-	fmt.Println("Sending Everloop Configuration!")
 	time.Sleep(1 * time.Millisecond)
 }
 ```
