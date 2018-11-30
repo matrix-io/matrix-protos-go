@@ -36,7 +36,6 @@ go get github.com/matrix-io/matrix-protos-go
 package main
 
 import (
-	"fmt"
 	"time"
 
 	"github.com/golang/protobuf/proto"
