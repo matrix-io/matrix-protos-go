@@ -13,7 +13,6 @@ The MATRIX CORE protocol is an abstraction layer built on top of ZeroMQ that use
 
 **Data Update Port**: Receive relevant port data (Sensor data, LED count, etc..).
 
-In the following examples, we will show how to send a config to the driver port and how to obtain data updates on the data update port.
 
 # Installation
 For guided installation instructions on MATRIX devices, Visit the [MATRIX CORE installation page](https://matrix-io.github.io/matrix-documentation/matrix-core/getting-started/).
